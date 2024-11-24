@@ -1,23 +1,27 @@
-[![Run on Repl.it](https://repl.it/badge/github/techwithtim/NEAT-Flappy-Bird)](https://repl.it/github/techwithtim/NEAT-Flappy-Bird)
-# NEAT-Flappy-Bird
-An AI that plays flappy bird! Using the NEAT python module.
+# Flappy Bird AI
 
-# Instructions
-Simply run *flappy_bird.py* and watch an AI start training itself to play the game of flappy bird!
+This project demonstrates an AI learning to play the popular Flappy Bird game using the **NEAT (NeuroEvolution of Augmenting Topologies)** algorithm. The project employs **Pygame** for game simulation, **NEAT** for the AI model, and visualization tools to showcase the learning process.
 
-# Video Tutorial
+---
 
-You can view on the details of this project here: https://www.youtube.com/watch?v=OGHA-elMrxI
+## Features
 
-# 💻 Launch Your Software Development Career Today!  
+- **AI Training**: Uses NEAT to evolve neural networks for controlling the bird's behavior (e.g., jumping) based on the game state.
+- **Game Simulation**: Built with Pygame, the Flappy Bird game simulates the environment for the AI to learn and adapt.
+- **Dynamic Visualization**: Displays real-time gameplay with visual indicators of AI decisions and fitness scoring.
+- **Configurable Parameters**: Modify NEAT parameters via the configuration file (`config-feedforward.txt`) for experimentation.
+- **Generational Evolution**: The AI improves over multiple generations by selecting the best-performing neural networks.
 
-🎓 **No degree? No problem!** My program equips you with everything you need to break into tech and land an entry-level software development role.  
+---
 
-🚀 **Why Join?**  
-- 💼 **$70k+ starting salary potential**  
-- 🕐 **Self-paced:** Complete on your own time  
-- 🤑 **Affordable:** Low risk compared to expensive bootcamps or degrees
-- 🎯 **45,000+ job openings** in the market  
+## Requirements
 
-👉 **[Start your journey today!](https://techwithtim.net/dev)**  
-No experience needed—just your determination. Future-proof your career and unlock six-figure potential like many of our students have!  
+### Python Libraries
+Ensure you have the following libraries installed:
+- `pygame`
+- `neat-python`
+- `pickle`
+
+To install these, run:
+```bash
+pip install pygame neat-python
